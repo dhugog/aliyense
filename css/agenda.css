@@ -1,0 +1,36 @@
+#tabela-esq {
+	width: 40%;
+	float: left;
+	padding: 0 5%;
+}
+
+#tabela-dir {
+	width: 40%;
+	float: right;
+	padding: 0 5%;
+}
+
+.tabela {
+	margin-top: 15px;
+}
+
+.tabela li {
+	display: flex;
+	flex-flow: row-wrap;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid black;
+}
+
+.esq {
+	width: 50%;
+	text-align: center;
+}
+
+.dir {
+	width: 50%;
+	text-align: center;
+}

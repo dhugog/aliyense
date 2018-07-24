@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/estilo.css" />
+		<link rel="stylesheet" href="css/agenda.css" />
+		<link rel="stylesheet" href="css/sobre.css" />
+		<link rel="stylesheet" href="css/fotos.css" />
+		<link rel="stylesheet" href="css/fale-conosco.css" />
+		<script src="js/funcoes.js"></script>
+		<title>Banda Aliyense</title>
+		<script>
+			var cPage;
+		</script>
+	</head>
+	<body>
+		<div id="fundo">
+			<div class="bgc" id="c1"></div>
+			<div class="bgc" id="c2"></div>
+			<div class="bgc" id="c3"></div>
+			<div class="bgc" id="c4"></div>
+			<div class="bgc" id="c5"></div>
+			<div class="bgc" id="c6"></div>
+			<div class="bgc" id="c7"></div>
+			<div class="bgc" id="c8"></div>
+			<div class="bgc" id="c9"></div>
+			<div class="bgc" id="c10"></div>
+			<img src="imgs/silueta.png" id="bg">
+		</div>
+		
+		<header id="cabecalho">
+			<nav>
+				<ul id="menu">
+					<li onClick="removCorpo(cPage, ''), cPage = ''"><p>Home</p></li>
+					<li onClick="removCorpo(cPage, 'agenda'), addCorpo(cPage, 'agenda'), cPage = 'agenda'"><p>Agenda</p></li>
+					<li onClick="removCorpo(cPage, 'sobre'), addCorpo(cPage, 'sobre'), cPage = 'sobre'"><p>Sobre</p></li>
+					<li onClick="removCorpo(cPage, 'fotos'), addCorpo(cPage, 'fotos'), cPage = 'fotos'"><p>Fotos</p></li>
+					<li onClick="removCorpo(cPage, 'fale-conosco'), addCorpo(cPage, 'fale-conosco'), cPage = 'fale-conosco'"><p>Fale conosco</p></li>
+				</ul>
+				<div id="btn-menu" onClick="dropDownMenu()">
+					<div class="btnMenuDiv"></div>
+					<div class="btnMenuDiv"></div>
+					<div class="btnMenuDiv"></div>
+				</div>
+			</nav>
+			<img src="imgs/logo.jpg" style="cursor: pointer; z-index: 1;" id="logo" onClick="removCorpo(cPage, ''), cPage = ''"></img>
+			<h1 id="titulo">ALIYENSE</h1>
+		</header>
+
+		<div class="corpo" id="agenda">
+			<h2 class="tpc"> Agenda de shows </h2>
+			<section id="tabela-esq">
+				<ul class="tabela">
+					<li><div class="esq"><p>30/11</p><p>Quarta-feira</p></div><div class="dir"><p>Recreativo Campestre</p><p>Sorocaba-SP</p></div></li>
+					<li><div class="esq"><p>02/12</p><p>Sexta-feira</p></div><div class="dir"><p>Citibank Hall</p><p>São Paulo-SP</p></div></li>
+					<li><div class="esq"><p>10/12</p><p>Sábado</p></div><div class="dir"><p>Café Racer Rock Bar</p><p>Jundiaí-SP</p></div></li>
+					<li><div class="esq"><p>16/12</p><p>Sexta-feira</p></div><div class="dir"><p>Hangar-51</p><p>Sorocaba-SP</p></div></li>
+				</ul>
+			</section>
+			<section id="tabela-dir">
+				<ul class="tabela">
+					<li><div class="esq"><p>06/01/17</p><p>Sexta-feira</p></div><div class="dir"><p>Asteroid</p><p>Sorocaba-SP</p></div></li>
+					<li><div class="esq"><p>08/01/17</p><p>Domingo</p></div><div class="dir"><p>Praça Zeca Padeiro</p><p>Votorantim-SP</p></div></li>
+					<li><div class="esq"><p>13/01/17</p><p>Sexta-feira</p></div><div class="dir"><p>Toca do Leão</p><p>Sorocaba-SP</p></div></li>
+					<li><div class="esq"><p>14/01/17</p><p>Sábado</p></div><div class="dir"><p>Jack Pub</p><p>Sorocaba-SP</p></div></li>
+				</ul>
+			</section>
+		</div>
+		
+		<div class="corpo" id="sobre">
+			<h2 class="tpc"> Quem somos </h2>
+			<section id="secao-sobre">
+				<p>ALIYENSE&trade; foi fundada em 2008, numa simples garagem em Sorocaba-SP, na qual havia 4 jovens amigos com muita sede de <strong><i>ROCK</i></strong>.</p>
+				<p>É composta por Fernando "Cabeça" Alves no vocal, Bruno de Souza Fernandes na guitarra, Paulo "Esquera" Bernardes no contra-baixo e Lucas Sparazzi na bateria.</p>
+				<p>No início, a banda tocava apenas covers, até que em 2010, com trabalho árduo, lançaram seu primeiro álbum de Rock Alternativo, "Nossa Luta", que levou a banda a um maior reconhecimento, a partir daí realizando shows em várias regiões do Brasil. Em 2012 lançaram dois singles: "Desculpe, não estou aqui." e "Será nosso?".</p>
+				<p>Em 2014 lançaram seu segundo álbum, "Pegue para você", no qual ganhou o coração de seus fãs, levando a banda ao seu auge.</p>
+				<p>ALIYENSE&trade; vem abalando sua região, colocando melhor de si em suas músicas, agitando e contagiando todos por onde passa com seus shows inesquecíveis por ao redor do Brasil.</p>
+				<p>Suas influências músicais são: Pink Floyd, Black Sabbath, Rolling Stones, Nirvana, Beatles, Muse, entre outras.</p>
+				<p>Para ficar por dentro de novidades, curta nossa página <a href="#">facebook.com/bandaAliyense</a></p>
+			</section>
+		</div>
+		
+		<div class="corpo" id="fotos">
+			<table id="tabela-fotos">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="corpo" id="fale-conosco">
+			<h2 class="tpc"> Fale conosco </h2>
+			<section id="faleConosco">
+				<form method="post" action="#">
+					<fieldset>
+						<p style="width: 100%;">Nome: <input /></p>
+						<p style="width: 47%; float: left;">Telefone: <input /></p>
+						<p style="width: 47%; float: right;">E-mail: <input type="email" /></p>
+						<textarea placeholder="Digite aqui sua mensagem"></textarea>
+						<input type="submit" value="Enviar" id="btn" />
+					</fieldset>
+				</form>
+			</section>
+		</div>
+		
+		<footer>
+			<p>&copy; Copyright 2016</br>Criado e editado por Daniel Hugo Gasparotto e Ullian de Oliveira Souza</p>
+		</footer>
+	</body>
+</html>
